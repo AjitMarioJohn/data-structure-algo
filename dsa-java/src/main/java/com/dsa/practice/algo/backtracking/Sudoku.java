@@ -24,7 +24,6 @@ public class Sudoku {
     public void solve(char[][] input) {
         char[][] board = Arrays.copyOf(input, input.length);
         printBoard(board);
-        printBoard(board);
         System.out.println("=========================================");
         solvePuzzle(board);
         printBoard(board);
