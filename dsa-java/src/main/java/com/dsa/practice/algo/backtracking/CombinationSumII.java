@@ -42,21 +42,59 @@ import java.util.*;
 public class CombinationSumII {
 
     public static void main(String[] args) {
+        System.out.println(new CombinationSumII().findByUsingSet(new int[]{10,1,2,7,6,1,5}, 8));
+        System.out.println(new CombinationSumII().findByUsingSet(new int[]{2,5,2,1,2}, 5));
+
+        System.out.println("=============================================");
+
         System.out.println(new CombinationSumII().find(new int[]{10,1,2,7,6,1,5}, 8));
         System.out.println(new CombinationSumII().find(new int[]{2,5,2,1,2}, 5));
     }
 
     public List<List<Integer>> find(int[] arr, int target) {
+        List<List<Integer>> resultant = new ArrayList<>();
+        List<Integer> runningSet = new ArrayList<>();
+
+        // sorting is needed so that all the similar elements comes together
+        Arrays.sort(arr);
+        find(arr, runningSet, resultant, target, 0);
+
+        return resultant;
+    }
+
+    private void find(int[] arr, List<Integer> runningSet, List<List<Integer>> resultant, int remainingSum, int index) {
+        if (remainingSum == 0) {
+            resultant.add(new ArrayList<>(runningSet));
+            return;
+        }
+
+        if (remainingSum < 0 || index == arr.length) {
+            return;
+        }
+
+        for (int j = index; j < arr.length; j++) {
+            int num = arr[j];
+            if (j > index && num == arr[j-1]) {
+                continue;
+            }
+
+            runningSet.add(num);
+            find(arr, runningSet, resultant, remainingSum - num, j+1);
+            runningSet.remove(runningSet.size() - 1);
+        }
+    }
+
+    public List<List<Integer>> findByUsingSet(int[] arr, int target) {
         Set<List<Integer>> resultant = new HashSet<>();
         List<Integer> runningSet = new ArrayList<>();
 
         Arrays.sort(arr);
-        find(arr, runningSet, resultant, target, 0);
+        findByUsingSet(arr, runningSet, resultant, target, 0);
 
         return new ArrayList<>(resultant);
     }
 
-    private void find(int[] arr, List<Integer> runningSet, Set<List<Integer>> resultant, int remainingSum, int index) {
+    private void findByUsingSet(int[] arr, List<Integer> runningSet, Set<List<Integer>> resultant, int remainingSum, int index) {
         if (remainingSum == 0) {
             resultant.add(new ArrayList<>(runningSet));
             return;
@@ -68,9 +106,9 @@ public class CombinationSumII {
 
         int num = arr[index];
         runningSet.add(num);
-        find(arr, runningSet, resultant, remainingSum - num, index+1);
+        findByUsingSet(arr, runningSet, resultant, remainingSum - num, index+1);
         runningSet.remove(runningSet.size() - 1);
-        find(arr, runningSet, resultant, remainingSum, index+1);
+        findByUsingSet(arr, runningSet, resultant, remainingSum, index+1);
     }
 
 }
