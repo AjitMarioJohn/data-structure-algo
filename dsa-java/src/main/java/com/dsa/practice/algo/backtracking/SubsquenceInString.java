@@ -1,4 +1,4 @@
-package com.dsa.practice.algo.recursion;
+package com.dsa.practice.algo.backtracking;
 
 import java.util.ArrayList;
 import java.util.List;

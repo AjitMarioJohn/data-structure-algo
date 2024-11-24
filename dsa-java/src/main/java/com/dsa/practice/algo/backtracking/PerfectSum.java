@@ -1,8 +1,6 @@
-package com.dsa.practice.algo.recursion;
+package com.dsa.practice.algo.backtracking;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * Given an array arr of size n of non-negative integers and an integer sum, the task is to count all subsets of the given array with a sum equal to a given sum.
