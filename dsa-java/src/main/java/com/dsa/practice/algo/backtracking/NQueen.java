@@ -47,7 +47,24 @@ public class NQueen {
         resultant.add(list);
     }
 
+    //canInsert is more optimized than isSafe as redundant check of diagonal is not there
+    private boolean isSafe(char[][] board, final int row, final int column) {
+        int boardLength = board.length;
+        for (int index = 0; index < boardLength; index++) {
+            int leftDiagonalCol = column - (row - index);
+            int rightDiagonalCol = column + (row - index);
+            // (leftDiagonalCol >= 0 && leftDiagonalCol < boardLength && board[index][leftDiagonalCol] == Q) = checks from top-left to bottom right
+            // (rightDiagonalCol < boardLength && rightDiagonalCol >= 0 && board[index][rightDiagonalCol] == Q) = checks top-right to bottom left
+            if (board[index][column] == Q || (leftDiagonalCol >= 0 && leftDiagonalCol < boardLength && board[index][leftDiagonalCol] == Q)
+                    || (rightDiagonalCol < boardLength && rightDiagonalCol >= 0 && board[index][rightDiagonalCol] == Q)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     private boolean canInsert(char[][] board, final int row, final int column) {
+
         for (int index = 0; index < board.length; index++) {
             if (board[index][column] == Q) {
                 return false;
