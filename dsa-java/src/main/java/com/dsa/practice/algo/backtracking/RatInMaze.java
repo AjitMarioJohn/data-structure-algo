@@ -21,6 +21,7 @@ public class RatInMaze {
     public List<String> findPath(List<List<Integer>> mat) {
         // will contains all the possible path
         List<String> paths = new ArrayList<>();
+        // mark as true if a cell is visited
         boolean[][] visited = new boolean[mat.size()][mat.getFirst().size()];
         helper(mat, 0, 0, new StringBuilder(), paths, visited);
         return paths;
