@@ -7,15 +7,12 @@ public class NQueen {
     private static final char EMPTY_CHAR = '.';
     private static final char Q = 'Q';
 
-    public static void main(String[] args) {
-        new NQueen().placeQueen(4);
-    }
-    public void placeQueen(int size) {
+    public List<List<String>> placeQueen(int size) {
         char[][] board = new char[size][size];
         List<List<String>> resultant = new ArrayList<>();
         initialise(board);
         place(board, 0, resultant);
-        System.out.println(resultant);
+        return resultant;
     }
 
     private void place(char[][] board, int row, List<List<String>> resultant) {
