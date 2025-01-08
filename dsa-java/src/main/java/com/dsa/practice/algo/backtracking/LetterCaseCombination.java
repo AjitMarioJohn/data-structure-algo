@@ -1,11 +1,7 @@
 package com.dsa.practice.algo.backtracking;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  * Given a string s, you can transform every letter individually to be lowercase or uppercase to create another string.
