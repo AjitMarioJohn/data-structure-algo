@@ -1,7 +1,7 @@
 package com.dsa.practice.algo.backtracking;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A happy string is a string that:
@@ -43,36 +43,42 @@ public class LexicographicalString {
     private final char[] strings = {'a', 'b', 'c'};
     private final String EMPTY = "";
 
+    /**
+     * Generates happy string with length n and return k<sup>th</sup> index string
+     * @param n length of happy string
+     * @param k index which we have to return
+     * @return empty String if K<sup>th</sup> index is not present else the k<sup>th</sup> index string
+     */
     public String getHappyString(int n, int k) {
-        boolean[] used = new boolean[strings.length];
-        Set<String> happyStrings = new HashSet<>();
-        generateHappyStrings(strings, used, n, new StringBuilder(), happyStrings);
-
-        if (happyStrings.size() < k) {
-            return EMPTY;
-        }
-
-        return happyStrings.toArray(new String[]{})[k - 1];
+        List<String> happyStrings = new ArrayList<>();
+        getHappyString(0, n, ' ', new StringBuilder(), happyStrings);
+        System.out.println(happyStrings);
+        return happyStrings.size() >= k ? happyStrings.get(k - 1) : EMPTY;
     }
 
-    private void generateHappyStrings(char[] strings, boolean[] used, int wordLength, StringBuilder current, Set<String> happyStrings) {
-        if (current.length() == wordLength) {
+    /**
+     * recursive function to generate all possible happy strings
+     * @param index index in which currently we are iterating
+     * @param stringLength length of the happy string
+     * @param lastChar last character appended to current combination
+     * @param current current running combination
+     * @param happyStrings contains all possible happy strings
+     */
+    private void getHappyString(int index, int stringLength, char lastChar, StringBuilder current, List<String> happyStrings) {
+        if (index == stringLength) {
             happyStrings.add(current.toString());
             return;
         }
 
-        for (int index = 0; index < strings.length; index++) {
-            if (used[index]) {
+        for (char ch : strings) {
+            if (ch == lastChar) {
                 continue;
             }
 
-            used[index] = true;
-            current.append(strings[index]);
-            generateHappyStrings(strings, used, wordLength, current, happyStrings);
+            current.append(ch);
+            getHappyString(index + 1, stringLength, ch, current, happyStrings);
             current.deleteCharAt(current.length() - 1);
-            used[index] = false;
         }
     }
-
 
 }
