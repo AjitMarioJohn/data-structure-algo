@@ -47,4 +47,14 @@ class LinkedlistTest {
 
         assertEquals(10, linkedList.getFirst().getData());
     }
+
+    @Test
+    void testContains() {
+        List<Integer> elements = List.of(10, 20, 30);
+        Linkedlist<Integer> linkedList = new Linkedlist<>(elements);
+
+        assertFalse(linkedList.contains(50));
+        assertFalse(linkedList.contains(null));
+        assertTrue(linkedList.contains(20));
+    }
 }

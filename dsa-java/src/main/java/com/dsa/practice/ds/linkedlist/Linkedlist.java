@@ -1,7 +1,8 @@
 package com.dsa.practice.ds.linkedlist;
 
 import java.util.Collection;
-import java.util.Objects;
+
+import static java.util.Objects.*;
 
 /**
  * Immutable LinkedList implementation
@@ -26,7 +27,7 @@ public final class Linkedlist<E> {
      * @param collection Elements to initialize the list
      */
     public Linkedlist(Collection<? extends E> collection) {
-        Objects.requireNonNull(collection, "Collection must not be null");
+        requireNonNull(collection, "Collection must not be null");
 
         // Build linked list immutably from the end
         Node<E> tempFirst = null;
@@ -50,7 +51,7 @@ public final class Linkedlist<E> {
      * Get the first node (returns the actual node since it's immutable)
      */
     public Node<E> getFirst() {
-        return Objects.isNull(first) ? null : first;
+        return isNull(first) ? null : first;
     }
 
     /**
@@ -58,6 +59,28 @@ public final class Linkedlist<E> {
      */
     public int getSize() {
         return size;
+    }
+
+    /**
+     * Check whether the data is present in the Linkedlist or not
+     * @param data - needed to be searched for
+     * @return {@code true} if data is present in any of the node or else {@code false}
+     */
+    public boolean contains(E data) {
+        if (isNull(data) || isNull(first)) {
+            return false;
+        }
+
+        Node<E> currentNode = first;
+
+        while (nonNull(currentNode)) {
+            if (currentNode.getData().equals(data)) {
+                return true;
+            }
+            currentNode = currentNode.getNext();
+        }
+
+        return false;
     }
 
     /**
@@ -73,7 +96,7 @@ public final class Linkedlist<E> {
          * Constructor for creating a new node with an explicit next reference
          */
         private Node(E data, Node<E> next) {
-            this.data = Objects.requireNonNull(data, "Data must not be null");
+            this.data = requireNonNull(data, "Data must not be null");
             this.next = next;
         }
 
@@ -86,7 +109,7 @@ public final class Linkedlist<E> {
          * Get the next node (immutable)
          */
         public Node<E> getNext() {
-            return Objects.isNull(next) ? null : new Node<>(next);
+            return isNull(next) ? null : new Node<>(next);
         }
 
         /**
