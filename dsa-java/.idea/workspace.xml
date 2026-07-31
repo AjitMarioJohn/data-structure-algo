@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackgroundAgentGlobalSettings">
+    <option name="selectedModelId" value="auto" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9fe754d8-6605-4bb0-ae9f-1d2fd9316563" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/practice/dsa/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/dsa/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/BeautifulArrangement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/CombinationSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/CombinationSumII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/CombinationSumIII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/GraphColoring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/LetterCaseCombination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/LetterTiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/LexicographicalString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/NQueen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/NQueenII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/PalindromePartitioning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/Parenthesis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/PerfectSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/PermutationII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/Permutations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/PermutationsUsingSwap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/PhoneNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/RatInMaze.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/SmallestSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/SourceToTarget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/SubsequenceInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/SubsetSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/SubsquenceInString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/Sudoku.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/UniqueSubset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/backtracking/WordSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/algo/dp/WordBreak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/ds/array/CheckDuplicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/ds/array/LargestElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/ds/array/SecondLargestAndSmallestElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/ds/linkedlist/Linkedlist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsa/practice/ds/linkedlist/ReverseLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/algo/backtracking/BeautifulArrangementTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/algo/backtracking/LetterCaseCombinationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/algo/backtracking/LetterTilesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/algo/backtracking/LexicographicalStringTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/algo/backtracking/NQueenTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/algo/backtracking/PalindromePartitioningTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/algo/backtracking/ParenthesisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/algo/backtracking/PermutationIITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/algo/backtracking/PermutationsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/algo/backtracking/PermutationsUsingSwapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/algo/backtracking/PhoneNumberTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/algo/backtracking/RatInMazeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/algo/backtracking/SourceToTargetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/algo/backtracking/WordSearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/ds/array/CheckDuplicateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/ds/array/LargestElementTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/ds/array/SecondLargestAndSmallestElementTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/ds/linkedlist/LinkedlistTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dsa/practice/ds/linkedlist/ReverseLinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/.idea/dsa-python.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/.venv/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/backtacking/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/backtacking/graph_coloring.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/backtacking/nqueen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/backtacking/nqueenII.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/backtacking/palindrome_partitioning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/backtacking/phone_number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/backtacking/sudoku.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa-python/backtacking/word_search.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Projects/data-structure-algo/dsa-java" value="3H5hBCwPfGyaeCByG9mNEypeD84" />
+    </persistenceIdMap>
+  </component>
+  <component name="DBNavigator.Project.Workspace.Settings">
+    <assistant-settings>
+      <credential-settings>
+        <credentials />
+      </credential-settings>
+      <profile-settings>
+        <profiles />
+      </profile-settings>
+      <mcp-server-settings>
+        <workspace-integration value="false" />
+        <mcp-servers />
+        <mcp-tool-approvals />
+      </mcp-server-settings>
+    </assistant-settings>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3H5hBCwPfGyaeCByG9mNEypeD84" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Arena.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Arena" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.dsa.arrays.Arena" />
+      <module name="dsa-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.dsa.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Arena" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fe754d8-6605-4bb0-ae9f-1d2fd9316563" name="Changes" comment="" />
+      <created>1785163704715</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785163704715</updated>
+      <workItem from="1785163706147" duration="3025000" />
+      <workItem from="1785248841176" duration="6984000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
